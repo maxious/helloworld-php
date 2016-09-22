@@ -4,7 +4,7 @@ applications:
   buildpack: php_buildpack
   memory: 256M
   instances: 1
-qafire_services:
+qafire:
   services:
   - plan: 512mb
     type: p-mysql

@@ -5,6 +5,6 @@ applications:
   memory: 256M
   instances: 1
 qafire_services:
-- name: test-mysql-01
-  plan: 512mb
-  type: p-mysql
+  services:
+  - plan: 512mb
+    type: p-mysql
